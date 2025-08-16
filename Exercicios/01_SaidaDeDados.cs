@@ -41,3 +41,7 @@ public class SaidaDeDados
 // * [Console.OutputEncoding = Encoding.UTF8;] - Garante que o console exiba caracteres especiais e acentos.
 
 // * [Console.WriteLine] - É o comando que nos permite exibir uma mensagemn no console
+
+// ---------------------------------------------------------------------------
+// EXERCÍCIO - 01
+// Contrua um programa que exiba a exata mensagem: "Utilização do Console.WriteLine e acentuação válida".
