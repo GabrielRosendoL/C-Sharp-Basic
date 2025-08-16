@@ -1,0 +1,15 @@
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\bin\Debug\net9.0\TrilhaC#-Basic.exe
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\bin\Debug\net9.0\TrilhaC#-Basic.deps.json
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\bin\Debug\net9.0\TrilhaC#-Basic.runtimeconfig.json
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\bin\Debug\net9.0\TrilhaC#-Basic.dll
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\bin\Debug\net9.0\TrilhaC#-Basic.pdb
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.sourcelink.json
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.dll
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\refint\TrilhaC#-Basic.dll
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.pdb
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\TrilhaC#-Basic.genruntimeconfig.cache
+C:\Users\Gabriel\Desktop\C#\TrilhaC#-Basic\obj\Debug\net9.0\ref\TrilhaC#-Basic.dll
