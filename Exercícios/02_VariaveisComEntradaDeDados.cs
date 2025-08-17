@@ -19,7 +19,7 @@ public class VariaveisComEntradaDeDados
 // ---------------------------------------------------------------------------
 // EXPLICAÇÃO
 
-// * Comece declarando a classe EntradaDeDados
+// * Comece declarando a classe VariaveisComEntradaDeDados
 
 // * [Console.ReadLine] - É o comando que nos permite escrever uma mensagemn no console
 
@@ -63,6 +63,4 @@ public class VariaveisComEntradaDeDados
 
 // ---------------------------------------------------------------------------
 // EXERCÍCIO - 02
-// Contrua um programa que pergunta ao usuário sua idade e sua altura em metros.
-//      * A idade deve vir em número, não tem texto.
-//      * A altura, mesmo que seja um número redondo, deve vir apresentando sua casa decimal.
+// Contrua um programa que requere ao usuário duas respostas em string.
