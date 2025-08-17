@@ -63,4 +63,4 @@ public class VariaveisComEntradaDeDados
 
 // ---------------------------------------------------------------------------
 // EXERCÍCIO - 02
-// Contrua um programa que requere ao usuário duas respostas em string.
+// Desenvolva um programa que requere ao usuário duas respostas em string.

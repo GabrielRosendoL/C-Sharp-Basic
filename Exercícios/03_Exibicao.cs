@@ -31,6 +31,6 @@ public class Exibicao
 
 // ---------------------------------------------------------------------------
 // EXERCÍCIO - 03
-// Contrua um programa que declare previavemente a variável do usuário informando sua idade.
+// Desenvolva um programa que declare previavemente a variável do usuário informando sua idade.
 // Depois exiba quantos anos ele tinha no ano retrasado.
 // E por fim exiba qual o valor de sua idade muktiplicado por 3x.

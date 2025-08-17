@@ -44,4 +44,4 @@ public class SaidaDeDados
 
 // ---------------------------------------------------------------------------
 // EXERCÍCIO - 01
-// Contrua um programa que exiba a exata mensagem: "Utilização do Console.WriteLine e acentuação válida".
+// Desenvolva um programa que exiba a exata mensagem: "Utilização do Console.WriteLine e acentuação válida".
