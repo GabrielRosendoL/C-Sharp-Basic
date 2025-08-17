@@ -3,7 +3,7 @@ using System.Text;
 
 public class Exibicao
 {
-    public static void Main(string[] args)
+    public static void Main_03(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
 
@@ -22,6 +22,11 @@ public class Exibicao
 // EXPLICAÇÃO
 
 // * Comece declarando a classe Exibicao
+
+// Troque:
+//      public static void Main_03(string[] args)
+// para:
+//      public static void Main(string[] args)
 
 // * Para exibir uma variável no console insira o "$" dentro do parâmetro do Console.WriteLine. Após 
 //      isso chame a variável entre { }. 

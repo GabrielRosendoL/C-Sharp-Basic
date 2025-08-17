@@ -3,7 +3,7 @@ using System.Text;
 
 public class Parse
 {
-    public static void Main(string[] args)
+    public static void Main_04(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
 
@@ -21,6 +21,11 @@ public class Parse
 // EXPLICAÇÃO
 
 // * Comece declarando a classe Parse
+
+// Troque:
+//      public static void Main_04(string[] args)
+// para:
+//      public static void Main(string[] args)
 
 // * Naturalmente o [Console.ReadLine()] lerá strings. Portanto, se precisarmos armazenar um dado em um 
 //      tipo que não seja uma string teremos que fazer uma conversão.

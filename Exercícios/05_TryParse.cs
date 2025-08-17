@@ -4,7 +4,7 @@ using System.Text;
 
 public class TryParse
 {
-    public static void Main(string[] args)
+    public static void Main_05(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
 
@@ -33,6 +33,11 @@ public class TryParse
 // EXPLICAÇÃO
 
 // * Comece declarando a classe TryParse
+
+// Troque:
+//      public static void Main_05(string[] args)
+// para:
+//      public static void Main(string[] args)
 
 // * Agora veremos o [TryParse]. Ele tem o mesmo intuito do Parse: realizar uma conversão. Porém faz isso de
 //      maneira mais robusta. Imagine uma situação em que o usuário passa um valor em um Parse que não pode 

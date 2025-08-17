@@ -4,7 +4,7 @@ using System.Text;
  
 public class SaidaDeDados
 {
-    public static void Main(string[] args)
+    public static void Main_01(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
 
@@ -20,6 +20,11 @@ public class SaidaDeDados
 // * A .Text traz a possibilidade de acentuarmos os textos
 
 // * Comece declarando a classe SaidaDeDados
+
+// Troque:
+//      public static void Main_01(string[] args)
+// para:
+//      public static void Main(string[] args)
 
 // * [public static void Main(string [] args)] - É o nosso ponto de entrada
 // * Esse é nosso ponto de entrada. É a primeira coisa que o C# procura para executar quando o programa roda.

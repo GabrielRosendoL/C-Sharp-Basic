@@ -4,7 +4,7 @@ using System.Text;
  
 public class VariaveisComEntradaDeDados
 {
-    public static void Main(string[] args)
+    public static void Main_02(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
 
@@ -20,6 +20,11 @@ public class VariaveisComEntradaDeDados
 // EXPLICAÇÃO
 
 // * Comece declarando a classe VariaveisComEntradaDeDados
+
+// Troque:
+//      public static void Main_02(string[] args)
+// para:
+//      public static void Main(string[] args)
 
 // * [Console.ReadLine] - É o comando que nos permite escrever uma mensagemn no console
 
