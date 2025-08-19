@@ -111,4 +111,4 @@ public class OperadoresLogicos
 // Desenvolva um programa que peça um numero ao usuário.
 // Depois multiplique esse número por 2; 5 e 7.
 // Se a soma dos 3 resultados ultrapassar 500, exiba um booleano de sucesso
-//  indicando True no terminal. Caso seja menor, exiba false.
+//  indicando True no terminal. Caso seja menor, exiba False.
