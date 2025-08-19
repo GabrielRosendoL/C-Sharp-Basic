@@ -2,7 +2,7 @@ using System;
 using System.Text;
 using System.Threading;
 
-public class ExemploConsoleCompleto
+public class FuncoesBonusConsole
 {
     public static void Main_06(string[] args)
     {
@@ -38,7 +38,7 @@ public class ExemploConsoleCompleto
 // ---------------------------------------------------------------------------
 // EXPLICAÇÃO
 
-// * Comece declarando a classe Parse
+// * Comece declarando a classe FuncoesBonusConsole
 
 // Troque:
 //      public static void Main_06(string[] args)
