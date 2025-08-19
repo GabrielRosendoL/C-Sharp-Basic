@@ -98,8 +98,9 @@ public class OperadoresLogicos
 // para:
 //      public static void Main(string[] args)
 
-// * Utilizamos a biblioteca Globalization para lidar com divergências de padrão regional, como
-//      utlização da vírgula ou ponto; ou ordem de dia e mês. 
+// * Utilizamos a biblioteca Globalization (CultureInfo.InvariantCulture) para lidar com 
+//          divergências de padrão regional, como utlização da vírgula ou ponto; ou 
+//          ordem de dia e mês.      
 
 //  * Com Operadores Lógicos podemos manipular as variávels ou fazer comparações com base 
 //              nas afirmações que estabelecemos.
@@ -107,4 +108,7 @@ public class OperadoresLogicos
 // ---------------------------------------------------------------------------
 // EXERCÍCIO - 07
 
-// Desenvolva um programa que exiba um texto em verde e um texto em vermelho no console.
+// Desenvolva um programa que peça um numero ao usuário.
+// Depois multiplique esse número por 2; 5 e 7.
+// Se a soma dos 3 resultados ultrapassar 500, exiba um booleano de sucesso
+//  indicando True no terminal. Caso seja menor, exiba false.
