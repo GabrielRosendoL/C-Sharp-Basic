@@ -1,7 +1,5 @@
-// Adicionamos a biblioteca 'Threading' para poder usar a função de pausa (Sleep).
 using System;
 using System.Text;
-using System.Threading;
 
 public class While
 {

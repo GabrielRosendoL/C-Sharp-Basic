@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-public class Exerc_{
+public class ForResp {
     
     public static void Main_09(string[] args){
         

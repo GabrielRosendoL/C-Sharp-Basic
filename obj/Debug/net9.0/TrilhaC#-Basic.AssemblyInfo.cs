@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrilhaC#-Basic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec61eacaf80d052a5e5f389d2d511d523676192")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fd61568a642bc504c68338214cddbf190d46224")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrilhaC#-Basic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrilhaC#-Basic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
