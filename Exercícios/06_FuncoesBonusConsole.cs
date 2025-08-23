@@ -17,10 +17,10 @@ public class FuncoesBonusConsole
 
         Console.Write("Digite o seu nome: ");
 
-        string respostaNome = Console.ReadLine();
+        string? respostaNome = Console.ReadLine();
 
         Console.Write("Digite a sua idade: "); ;
-        string respostaIdade = Console.ReadLine();
+        string? respostaIdade = Console.ReadLine();
 
         int idade;
 
@@ -34,25 +34,26 @@ public class FuncoesBonusConsole
         Console.WriteLine($"Idade: {idade}");
     }
 }
+/*
+---------------------------------------------------------------------------
+EXPLICAÇÃO
 
-// ---------------------------------------------------------------------------
-// EXPLICAÇÃO
+* Comece declarando a classe FuncoesBonusConsole
 
-// * Comece declarando a classe FuncoesBonusConsole
+Troque:
+    public static void Main_06(string[] args)
+para:
+    public static void Main(string[] args)
 
-// Troque:
-//      public static void Main_06(string[] args)
-// para:
-//      public static void Main(string[] args)
+* Essas são algumas funções bônus do Console. Você pode alterar a cor da fonte, seu
+    background, estabelecer um título no terminal etc. É interessante dar uma olhada
+    na documentação do C# para entender quais comandos podemos explorar na linguagem.
 
-// * Essas são algumas funções bônus do Console. Você pode alterar a cor da fonte, seu
-//      background, estabelecer um título no terminal etc. É interessante dar uma olhada
-//      na documentação do C# para entender quais comandos podemos explorar na linguagem.
+OBS: Note que abrimos um booleano ali apenas para informar ao programa
+    se nossa conversão foi bem sucedida ou não.
 
-//          OBS: Note que abrimos um booleano ali apenas para informar ao programa
-//                  se nossa conversão foi bem sucedida ou não.
+---------------------------------------------------------------------------
+EXERCÍCIO - 06
 
-// ---------------------------------------------------------------------------
-// EXERCÍCIO - 06
-
-// Desenvolva um programa que exiba um texto em verde e um texto em vermelho no console.
+- Desenvolva um programa que exiba um texto em verde e um texto em vermelho no console.
+*/

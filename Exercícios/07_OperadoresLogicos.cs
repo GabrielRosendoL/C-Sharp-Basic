@@ -12,13 +12,13 @@ public class OperadoresLogicos
         Console.OutputEncoding = Encoding.UTF8;
 
         Console.Write("\nDigite o primeiro número (pode ser decimal): ");
-        string primeiroNumeroTexto = Console.ReadLine();
+        string? primeiroNumeroTexto = Console.ReadLine();
 
         double numero1 = double.Parse(primeiroNumeroTexto, CultureInfo.InvariantCulture);
 
 
         Console.Write("Digite o segundo número: ");
-        string segundoNumeroTexto = Console.ReadLine();
+        string? segundoNumeroTexto = Console.ReadLine();
         double numero2 = double.Parse(segundoNumeroTexto, CultureInfo.InvariantCulture);
 
         Console.WriteLine("\n1. Operadores Aritméticos");
@@ -87,28 +87,29 @@ public class OperadoresLogicos
         Console.WriteLine($"NÃO (!) Condição A: {resultadoNAO}");
     }
 }
+/*
+---------------------------------------------------------------------------
+EXPLICAÇÃO
 
-// ---------------------------------------------------------------------------
-// EXPLICAÇÃO
+* Comece declarando a classe OperadoresLogicos
 
-// * Comece declarando a classe OperadoresLogicos
+Troque:
+    public static void Main_07(string[] args)
+para:
+    public static void Main(string[] args)
 
-// Troque:
-//      public static void Main_07(string[] args)
-// para:
-//      public static void Main(string[] args)
+* Utilizamos a biblioteca Globalization (CultureInfo.InvariantCulture) para lidar com 
+    divergências de padrão regional, como utlização da vírgula ou ponto; ou 
+    ordem de dia e mês.      
 
-// * Utilizamos a biblioteca Globalization (CultureInfo.InvariantCulture) para lidar com 
-//          divergências de padrão regional, como utlização da vírgula ou ponto; ou 
-//          ordem de dia e mês.      
+ * Com Operadores Lógicos podemos manipular as variávels ou fazer comparações com base 
+    nas afirmações que estabelecemos.
 
-//  * Com Operadores Lógicos podemos manipular as variávels ou fazer comparações com base 
-//              nas afirmações que estabelecemos.
+---------------------------------------------------------------------------
+EXERCÍCIO - 07
 
-// ---------------------------------------------------------------------------
-// EXERCÍCIO - 07
-
-// Desenvolva um programa que peça um numero ao usuário.
-// Depois multiplique esse número por 2; 5 e 7.
-// Se a soma dos 3 resultados ultrapassar 500, exiba um booleano de sucesso
-//  indicando True no terminal. Caso seja menor, exiba False.
+- Desenvolva um programa que peça um numero ao usuário.
+- Depois multiplique esse número por 2; 5 e 7.
+- Se a soma dos 3 resultados ultrapassar 500, exiba um booleano de sucesso
+    indicando True no terminal. Caso seja menor, exiba False.
+*/
