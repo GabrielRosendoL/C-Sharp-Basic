@@ -1,46 +1,48 @@
 using System;
 using System.Text;
 
-public class DoWhile_SwitchResp {
-    
+public class DoWhile_SwitchResp
+{
+
     public static void Main_11(string[] args)
     {
-        
+
         Console.OutputEncoding = Encoding.UTF8;
-        
+
         Console.WriteLine("Bem-vindo!");
-        
+
         Console.WriteLine("Digite um número entre 20 e 30: ");
         string userInput = Console.ReadLine();
-        
+
         if (int.TryParse(userInput, out int userInputConverted) && userInputConverted >= 20 && userInputConverted <= 30)
         {
             Console.WriteLine($"O número que voce digitou foi: {userInputConverted}");
-            
+
             char userOptionConverted;
-            
-            do {
+
+            do
+            {
                 Console.WriteLine("\n--- Lista de Opções ---");
-                
+
                 Console.WriteLine("Escolha uma das opções abaixo digitando a letra correspondente:");
-                
+
                 Console.WriteLine($"\n- Opção 'a' - Multiplicar {userInputConverted} por 3");
                 Console.WriteLine($"- Opção 'b' - Dividir {userInputConverted} por 2");
                 Console.WriteLine($"- Opção 'c' - Subtrair 10 de {userInputConverted}");
                 Console.WriteLine($"- Opção 'd' - Somar 15 a {userInputConverted}");
                 Console.WriteLine($"- Opção 'e' - Encerre o programa");
-                
+
                 Console.WriteLine($"\nDigite sua opção: ");
                 string userOption = Console.ReadLine();
-                
-                bool sucess = char.TryParse(userOption, out userOptionConverted); 
-                
+
+                bool sucess = char.TryParse(userOption, out userOptionConverted);
+
                 int optionA = userInputConverted * 3;
                 int optionB = userInputConverted / 2;
                 int optionC = userInputConverted - 10;
                 int optionD = userInputConverted + 15;
-                
-                switch(userOptionConverted)
+
+                switch (userOptionConverted)
                 {
                     case 'a':
                         Console.WriteLine($"\nO resultado é: {optionA}");
@@ -60,15 +62,43 @@ public class DoWhile_SwitchResp {
                 }
             }
             while (userOptionConverted != 'e');
-            
+
             Console.WriteLine("Você optou por encerrar o programa.");
         }
-        
+
         else
         {
             Console.WriteLine("Falha. Programa Encerrado.");
         }
-        
+
     }
-    
+
 }
+
+/*
+    OBS: Também podemos usar o TryParse diretamente:
+
+     public static void Main(string[] args)
+    {
+        Console.WriteLine("Digite uma letra: ");
+        string respostaUsuario = Console.ReadLine();
+
+        char respostaConvertida;
+        
+        char.TryParse(respostaUsuario, out respostaConvertida);
+        
+        Console.WriteLine($"A resposta foi: {respostaConvertida}");
+    }
+
+    -------------- OU ---------------
+
+     public static void Main(string[] args)
+    {
+        Console.WriteLine("Digite uma letra: ");
+        string respostaUsuario = Console.ReadLine();
+        
+        char.TryParse(respostaUsuario, out char respostaConvertida);
+        
+        Console.WriteLine($"A resposta foi: {respostaConvertida}");
+    }
+*/
