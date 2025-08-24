@@ -73,13 +73,14 @@ para:
 * Aqui temos também uma outra estrutura muito usada, o [switch]. O switch serve para
     requerirmos uma resposta do usuário (que pode ser [int] ou [char]). A depender
     da resposta, o programa executará o comando referente ao case que seja igual
-    a resposta que esse usuário forneceu.
+    a resposta que esse usuário forneceu. Cada caso ([case]) do [switch] precisa
+    de um [break] para não executar os próximos.
 
     No nosso exemplo, ele pede para que o usuário digite um número referente a uma
         opções do menu. Para qualquer número que o usuário digitar, oferecemos um
         comportamento diferente. Caso o usuário não digite algo dentro das opções
         disponíveis, temos o [default], que será executado sempre que houver um
-        caso inválido. 
+        caso inválido.
     
     O programa será encerrado caso o usuário digite "0" pois estamos dizendo que
         essa é a condição do nosso [while]: (escolhaDoUsuario != "0").
@@ -87,7 +88,7 @@ para:
 
 EXERCÍCIO - 11
 
-- Desenvolva um programa com [do... while] que pedirá um número de 20 a 30 ao usuário
+- Desenvolva um programa com [do... while] e [switch] que pedirá um número de 20 a 30 ao usuário
 - Caso não esteja dentro desse intervalo, encerre o programa.
 - Armazene esse número
 - Forneça uma lista de opções para ele, onde:
