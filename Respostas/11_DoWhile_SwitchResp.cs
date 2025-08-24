@@ -33,7 +33,7 @@ public class DoWhile_SwitchResp {
                 Console.WriteLine($"\nDigite sua opção: ");
                 string userOption = Console.ReadLine();
                 
-                bool sucess_two = char.TryParse(userOption, out userOptionConverted); 
+                bool sucess = char.TryParse(userOption, out userOptionConverted); 
                 
                 int optionA = userInputConverted * 3;
                 int optionB = userInputConverted / 2;
