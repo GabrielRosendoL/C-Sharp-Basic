@@ -3,7 +3,7 @@ using System.Text;
 
 public class ForResp {
     
-    public static void Main_09(string[] args){
+    public static void Main_Resp09(string[] args){
         
         Console.OutputEncoding = Encoding.UTF8;
         

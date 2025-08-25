@@ -4,7 +4,7 @@ using System.Text;
 public class DoWhile_SwitchResp
 {
 
-    public static void Main_11(string[] args)
+    public static void Main_Resp11(string[] args)
     {
 
         Console.OutputEncoding = Encoding.UTF8;

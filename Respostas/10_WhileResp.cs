@@ -3,7 +3,7 @@ using System.Text;
 
 public class WhileResp{
     
-    public static void Main(string[] args) {
+    public static void Main_Resp10(string[] args) {
         
         Console.OutputEncoding = Encoding.UTF8;
         
