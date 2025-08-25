@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-public class DoWhile_SwitchResp
+public class DoWhile_Switch_Resp
 {
 
     public static void Main_Resp11(string[] args)

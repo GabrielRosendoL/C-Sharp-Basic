@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-public class Exerc_12
+public class Arrays_Foreach_Resp
 {
     public static void Main_Resp12(string[] args)
     {
