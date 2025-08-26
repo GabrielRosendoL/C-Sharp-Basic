@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-public class WhileResp{
+public class While_Resp{
     
     public static void Main_Resp10(string[] args) {
         

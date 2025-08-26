@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-public class ForResp {
+public class For_Resp {
     
     public static void Main_Resp09(string[] args){
         
