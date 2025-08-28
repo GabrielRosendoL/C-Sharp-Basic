@@ -1,0 +1,92 @@
+Aqui seguem 15 exercícios para a prática de conceitos básicos em C#.
+
+Lista de Exercícios Básicos de C#
+
+PROGRAMA 1: Operações Básicas
+Conceitos: Variáveis, Entrada/Saída de Dados, Operadores Aritméticos.
+- Tarefa: Crie um programa que peça ao usuário para digitar dois números inteiros. 
+Em seguida, calcule e exiba o resultado da soma, subtração, multiplicação e divisão desses números.
+
+PROGRAMA 2: Concatenando Textos
+Conceitos: Variáveis string, Entrada/Saída de Dados.
+- Tarefa: Crie um programa que pergunte o nome e o sobrenome do usuário em duas etapas separadas. 
+Ao final, exiba a mensagem "Olá, [Nome] [Sobrenome], seja bem-vindo(a)!".
+
+PROGRAMA 3: Verificador de Idade
+Conceitos: if/else, Operadores de Comparação, int.Parse.
+- Tarefa: Crie um programa que pergunte a idade do usuário. 
+Se a idade for maior ou igual a 18, exiba a mensagem "Você é maior de idade.". 
+Caso contrário, exiba "Você é menor de idade.".
+
+PROGRAMA 4: Par ou Ímpar
+Conceitos: if/else, Operador de Módulo (%).
+- Tarefa: Crie um programa que peça um número inteiro ao usuário e determine se ele é par ou ímpar. 
+Exiba a resposta no console. (Dica: um número é par se o resto da sua divisão por 2 for igual a 0).
+
+PROGRAMA 5: Cardápio com Switch
+Conceitos: switch-case, Entrada de Dados.
+- Tarefa: Crie um programa que exiba um menu com 3 opções de lanche e seus códigos 
+(ex: 1-Hambúrguer, 2-Batata Frita, 3-Refrigerante). 
+Peça ao usuário para digitar o código do item desejado e use um switch para exibir o nome e o 
+preço do produto selecionado. Inclua um default para opções inválidas.
+
+PROGRAMA 6: Tabuada com for
+Conceitos: Laço for, Entrada de Dados.
+- Tarefa: Crie um programa que peça ao usuário um número inteiro. 
+Em seguida, use um laço for para exibir a tabuada de multiplicação desse número, do 1 ao 10.
+
+PROGRAMA 7: Adivinhe o Número com while
+Conceitos: Laço while, if/else, Random.
+- Tarefa: Crie um jogo onde o programa "pensa" em um número secreto entre 1 e 100. 
+O usuário deve tentar adivinhar qual é o número. O programa, a cada tentativa, 
+deve dizer se o palpite é "muito alto" ou "muito baixo". O laço while deve continuar 
+até que o usuário acerte o número.
+
+PROGRAMA 8: Menu com do-while
+Conceitos: Laço do-while, switch.
+- Tarefa: Crie um menu de opções que é exibido repetidamente até que o usuário escolha 
+a opção "0" para sair. As outras opções podem ser apenas mensagens simples 
+(ex: "Opção 1 selecionada"). A lógica principal é garantir que o menu apareça pelo menos uma 
+vez e continue aparecendo até a condição de saída ser atendida.
+
+PROGRAMA 9: Registro de Nomes com Array
+Conceitos: Arrays, Laço for.
+- Tarefa: Crie um programa que declare um array de string com 5 posições. 
+Use um laço for para pedir ao usuário que digite 5 nomes. Armazene cada nome no array.
+
+PROGRAMA 10: Exibindo a Lista com foreach
+Conceitos: Arrays, Laço foreach.
+- Tarefa: Usando o array preenchido no exercício anterior, use um laço foreach para 
+percorrer o array e exibir no console cada nome que foi registrado, um por linha.
+
+PROGRAMA 11: Média de Notas em um Array
+Conceitos: Arrays, for, foreach, Operadores Aritméticos.
+- Tarefa: Crie um programa que declare um array de double com 4 posições. 
+Peça ao usuário para digitar as 4 notas de um aluno. Armazene-as no array, calcule a 
+soma de todas as notas e, ao final, exiba a média do aluno.
+
+PROGRAMA 12: Função de Saudação
+Conceitos: Métodos/Funções (void, com parâmetros).
+- Tarefa: Crie um método chamado ExibirSaudacao que receba um string (o nome de uma pessoa) 
+como parâmetro. O método deve exibir a mensagem "Olá, [nome]! Tenha um bom dia.". 
+No método Main, peça o nome do usuário e chame o seu novo método para exibir a saudação.
+
+PROGRAMA 13: Função de Soma com Retorno
+Conceitos: Métodos/Funções (com retorno).
+- Tarefa: Crie um método chamado Somar que receba dois números inteiros como 
+parâmetros e retorne o resultado da soma. No método Main, peça ao usuário dois números, chame 
+o método Somar com esses números e exiba o resultado que foi retornado.
+
+PROGRAMA 14: Busca em Array
+Conceitos: Arrays, foreach, if/else.
+- Tarefa: Crie um array de string pré-definido com 5 nomes. 
+Peça ao usuário para digitar um nome. Use um laço foreach para procurar se o nome 
+digitado existe no array. Ao final, exiba "Achei!" se o nome estiver na lista, ou 
+"Não achei." caso contrário.
+
+PROGRAMA 15: Análise de Palavras em um Array
+Conceitos: Arrays, foreach, if, Propriedade .Length.
+- Tarefa: Crie um array de string com algumas palavras (ex: "mesa", "cadeira", "lápis", "computador"). 
+Use um laço foreach para percorrer o array. 
+Para cada palavra, verifique se ela tem mais de 5 caracteres. 
+Se tiver, exiba a palavra e o número de letras que ela possui.
