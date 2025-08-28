@@ -1,0 +1,38 @@
+PROGRAMA 1:
+
+        using System;
+        using System.Text;
+
+public class Programa_01 {
+    
+    public static void Main(string[] args){
+        
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        Console.WriteLine("Digite o primerio número: ");
+        string entrada1 = Console.ReadLine();
+        
+        int.TryParse(entrada1, out int num1);
+        
+        Console.WriteLine("Digite o segundo número: ");
+        string entrada2 = Console.ReadLine();
+        
+        int.TryParse(entrada2, out int num2);
+        
+        int soma = num1 + num2;
+        int subtracao = num1 - num2;
+        int multiplicacao = num1 * num2;
+        int divisao = num1 / num2;
+        
+        
+         Console.WriteLine("--- Resultados ---\n");
+         Console.WriteLine($"A soma de {num1} + {num2} é: {soma}");
+         Console.WriteLine($"A subtração de {num1} - {num2} é de: {subtracao}");
+         Console.WriteLine($"A multiplicacao de {num1} * {num2} é: {multiplicacao}");
+         Console.WriteLine($"A divisao de {num1} / {num2} é: {divisao}");
+        
+    }
+    
+}
+
+// ---------------------------------------------------------------------------
