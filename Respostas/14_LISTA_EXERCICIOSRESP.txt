@@ -62,3 +62,35 @@ public class Programa_02 {
     }
     
 }
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 3 ########################
+
+using System;
+using System.Text;
+
+public class Programa_03 {
+    
+    public static void Main(string[] args){
+        
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        Console.WriteLine("Informe sua idade");
+        string entrada = Console.ReadLine();
+        
+        int.TryParse(entrada, out int idade);
+        
+        if (idade >= 18)
+        {
+            Console.WriteLine("Você é maior de idade.");
+        }
+        
+        else 
+        {
+            Console.WriteLine("Você é menor de idade.");
+        }
+        
+    }
+    
+}
