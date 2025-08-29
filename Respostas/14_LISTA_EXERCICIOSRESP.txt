@@ -1,4 +1,4 @@
-PROGRAMA 1:
+######################## PROGRAMA 1 ########################
 
         using System;
         using System.Text;
@@ -36,3 +36,29 @@ public class Programa_01 {
 }
 
 // ---------------------------------------------------------------------------
+
+######################## PROGRAMA 2 ########################
+
+using System;
+using System.Text;
+
+public class Programa_02 {
+    
+    public static void Main(string[] args){
+        
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        Console.WriteLine("Bem-vindo!");
+        
+        Console.WriteLine("Digite seu nome: ");
+        string nome = Console.ReadLine();
+        
+        Console.WriteLine("Digite seu sobrenome: ");
+        string sobrenome = Console.ReadLine();
+        
+        Console.WriteLine($"Olá, {nome} {sobrenome}, seja bem-vindo(a)!");
+        
+        
+    }
+    
+}
