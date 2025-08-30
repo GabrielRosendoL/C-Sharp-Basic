@@ -94,3 +94,35 @@ public class Programa_03 {
     }
     
 }
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 4 ########################
+
+using System;
+using System.Text;
+
+public class Programa_04 {
+    
+    public static void Main(string[] args){
+        
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        Console.WriteLine("Digite um número inteiro: ");
+        string entrada = Console.ReadLine();
+        
+        int.TryParse(entrada, out int numero);
+        
+        int modulo = numero % 2;
+        
+        if (modulo == 0)
+        {
+            Console.WriteLine("O número é par.");
+        }
+        else
+        {
+            Console.WriteLine("O número é ímpar.");
+        }
+        
+    }
+}
