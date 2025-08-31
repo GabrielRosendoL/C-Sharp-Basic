@@ -126,3 +126,47 @@ public class Programa_04 {
         
     }
 }
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 5 ########################
+
+using System;
+using System.Text;
+
+public class Program_05{
+    
+    public static void Main(string[] args){
+        
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        Console.WriteLine("--- CARDÁPIO ---");
+        Console.WriteLine("## 1 - Hambúrguer");
+        Console.WriteLine("## 2 - Batata Frita");
+        Console.WriteLine("## 3 - Refrigerante");
+        
+          Console.WriteLine("Digite a opção que deseja: ");
+          string opcao = Console.ReadLine();
+          
+          switch (opcao)
+          {
+            case "1":
+                Console.WriteLine("Você escolheu: Hambúrguer");
+                break;
+            case "2":
+                Console.WriteLine("Você escolheu: Batata Frita");
+                break;
+            case "3":
+                Console.WriteLine("Você escolheu: Refrigerante");
+                break;
+            default:
+                Console.WriteLine("Essa não é uma opção válida.");
+                break;
+          }
+        
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 6 ########################
