@@ -170,3 +170,36 @@ public class Program_05{
 // ---------------------------------------------------------------------------
 
 ######################## PROGRAMA 6 ########################
+
+using System;
+using System.Text;
+
+    public class Programa_06{
+        
+        public static void Main(string[] args){
+            
+            Console.OutputEncoding = Encoding.UTF8;
+            
+            string entrada;
+            int numeroUsuario;
+            
+            Console.WriteLine("Digite um número inteiro: ");
+            entrada = Console.ReadLine();
+            
+            int.TryParse(entrada, out numeroUsuario);
+            
+            Console.Clear();
+            
+            Console.WriteLine("--- Tabuada ---");
+            for (int i = 1; i <= 10; i++)
+            {
+                int tabuada = numeroUsuario * i;
+                Console.WriteLine($"{numeroUsuario} * {i} = {tabuada}");
+            }
+        }
+        
+    }
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 7 ########################
