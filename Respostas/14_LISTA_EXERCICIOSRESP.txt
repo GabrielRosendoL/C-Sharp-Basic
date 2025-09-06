@@ -203,3 +203,55 @@ using System.Text;
 // ---------------------------------------------------------------------------
 
 ######################## PROGRAMA 7 ########################
+
+using System;
+using System.Text;
+
+public class Program_07  
+{
+    public static void Main(string[] args)
+    {
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        Random gerador = new Random();
+        int numeroGerado = gerador.Next(1, 61);
+        
+        Console.WriteLine("Pensei em um número aleatório. Lance um palpite:");
+        
+        int palpite = 0;
+        int tentativas = 0;
+        
+        while (palpite != numeroGerado)
+        {
+            Console.WriteLine("\nDigite seu palpite: ");
+            string? entrada = Console.ReadLine();
+            
+            if (!int.TryParse(entrada, out palpite))
+                {
+                    Console.WriteLine("Entrada inválida.");
+                    tentativas++;
+                    continue;
+                }
+            
+            if (palpite > numeroGerado)
+            {
+                Console.WriteLine("Tente um número menor");
+                tentativas++;
+            }
+            
+            else if (palpite < numeroGerado)
+            {
+                Console.WriteLine("Tente um número maior");
+                tentativas++;
+            }
+            
+        }
+        
+        Console.WriteLine($"Você acertou em {tentativas} tentativa(s). O número era {numeroGerado}.");
+        
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 8 ########################

@@ -37,7 +37,7 @@ Em seguida, use um laço for para exibir a tabuada de multiplicação desse núm
 
 PROGRAMA 7: Adivinhe o Número com while
 Conceitos: Laço while, if/else, Random.
-- Tarefa: Crie um jogo onde o programa "pensa" em um número secreto entre 1 e 100. 
+- Tarefa: Crie um jogo onde o programa "pensa" em um número secreto entre 1 e 60. 
 O usuário deve tentar adivinhar qual é o número. O programa, a cada tentativa, 
 deve dizer se o palpite é "muito alto" ou "muito baixo". O laço while deve continuar 
 até que o usuário acerte o número.
