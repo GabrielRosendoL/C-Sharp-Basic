@@ -305,12 +305,12 @@ public class Programa_08
 
 // ---------------------------------------------------------------------------
 
-######################## PROGRAMA 9 ########################
+######################## PROGRAMA 9 e 10 ########################
 
 using System;
 using System.Text;
 
-public class Programa_09
+public class Programa_09_10
 {
     public static void Main(string[] args)
     {
@@ -352,4 +352,32 @@ public class Programa_09
 
 // ---------------------------------------------------------------------------
 
-######################## PROGRAMA 10 ########################
+######################## PROGRAMA 11 ########################
+
+using System;
+using System.Text;
+
+public class Programa_11
+{
+    public static void Main(string[] args)
+    {
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        Console.WriteLine("Início do método Main");
+        
+        int a = 2;
+        int b = 7;
+        
+        Soma(a, b);
+    }
+    
+    public static void Soma(int a, int b)
+    {
+        int soma = a + b;
+        Console.WriteLine($"Chamada do método Soma: {soma}");
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 12 ########################
