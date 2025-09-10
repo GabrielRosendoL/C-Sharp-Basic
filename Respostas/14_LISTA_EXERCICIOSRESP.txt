@@ -381,3 +381,44 @@ public class Programa_11
 // ---------------------------------------------------------------------------
 
 ######################## PROGRAMA 12 ########################
+
+using System;
+using System.Text;
+
+public class Programa_12
+{
+    public static void Main(string[] args)
+    {
+        
+        Console.OutputEncoding = Encoding.UTF8;
+        
+        string[] nomes = {"nome1", "nome2", "nome3", "nome4", "nome5"};
+        
+        Console.WriteLine("Digite um nome: ");
+        string entrada = Console.ReadLine();
+        
+        bool encontrado = false;
+        
+        foreach (string nome in nomes)
+        {
+            if (entrada == nome)
+            {
+                encontrado = true;
+                break;
+            }
+        }
+
+        if (encontrado)
+        {
+            Console.WriteLine("Achei!");
+        }
+        else
+        {
+            Console.WriteLine("Não achei.");
+        }
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+######################## PROGRAMA 13 ########################
