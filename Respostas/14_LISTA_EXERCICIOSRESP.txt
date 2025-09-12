@@ -422,3 +422,26 @@ public class Programa_12
 // ---------------------------------------------------------------------------
 
 ######################## PROGRAMA 13 ########################
+
+using System;
+using System.Text;
+
+public class Programa_13 {
+    
+    public static void Main(string[] args)
+    {
+        Console.OutputEncoding = Encoding.UTF8;
+        string[] listaItens = {"Mesa", "Cadeira", "Lápis", "Computador"};
+        
+        foreach (string item in listaItens)
+        {
+           
+            if (item.Length > 5)
+            {
+                Console.WriteLine($"- Nome do Item: {item}");
+                Console.WriteLine($"- Contabiliza: {item.Length}x caracteres");
+                Console.WriteLine("- Logo, possui mais do que 5 caracteres\n");
+            }
+        }
+    }
+}
